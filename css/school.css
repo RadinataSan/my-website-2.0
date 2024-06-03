@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "JetBrains Mono", monospace;
+}
+
+body {
+    background: #0a0a27;
+    color: white;
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: transparent;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border-color: white;
+    border-width: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    font-weight: 420;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: 420;
+    font-size: 16px;
+    margin-left: 36px;
+    transition: 0.3s;
+    border: 0px solid white;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: gold;
+    border-width: 0 0 1px 0;
+    border-color: white;
+}
+
+
+.home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10%;
+}
+
+.home-content h1 {
+    color: white;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.home-content h3 {
+    font-size: 24px;
+    font-weight: 300;
+    color: #c5c5c5;
+    color: #5c8dff;
+}
